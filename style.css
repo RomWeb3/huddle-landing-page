@@ -238,6 +238,10 @@ i {
     flex-direction: column;
 }
 
+.nav2 {
+    margin-top: -5.25rem;
+}
+
 .socials {
  display: flex;
  flex-direction: row;
@@ -394,7 +398,7 @@ i {
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        gap: 11rem 10rem;
+        gap: 11rem 13rem;
         padding: 20rem 0 10rem 0rem;
     }
 
@@ -416,19 +420,20 @@ i {
 
     .column {
         width: 28%;
-        margin-left: -5rem;
+        margin-left: -12rem;
     }
 
     .nav {
         width: 24%;
+        display: flex;
+        flex-direction: row;
+        gap: 13rem;
      
     }
-    ul {
-        display: flex;
-       flex-direction: row;
-       gap: 10rem;
+    .nav1, .nav2 {
+       
        line-height: 2;
-       margin: 5rem 0;
+       margin: 0.5rem 0;
     }
 
     i {
