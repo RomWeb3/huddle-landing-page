@@ -397,9 +397,8 @@ i {
     .footer {
         display: flex;
         align-items: flex-start;
-        justify-content: center;
-        gap: 11rem 13rem;
-        padding: 20rem 0 10rem 0rem;
+        justify-content: space-evenly;
+        padding: 20rem 0 15rem 0rem;
     }
 
     #logoBottom {
@@ -420,7 +419,9 @@ i {
 
     .column {
         width: 28%;
-        margin-left: -12rem;
+        max-width: 42rem;
+        margin-right: -9rem;
+        margin-left: -8rem;
     }
 
     .nav {
@@ -428,6 +429,7 @@ i {
         display: flex;
         flex-direction: row;
         gap: 13rem;
+        margin-right: -7.5rem;
      
     }
     .nav1, .nav2 {
